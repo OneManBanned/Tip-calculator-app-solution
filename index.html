@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+
+<body>
+  <main>
+
+    <div id="grid-left">
+      <label for="bill" id="billLabel">Bill</label>
+      <input value="0" type="number" id="billAmount" name="bill" step="0.01">
+
+      <p class="p">Select Tip %</p>
+
+      <div id="percentDiv">
+        <button value="5" id="five" class="tipPercent left">5%</button>
+        <button value="10" id="ten" class="tipPercent right">10%</button>
+        <button value="15" id="fiveTen" class="tipPercent active left">15%</button>
+        <button value="25" id="twoFive" class="tipPercent right">25%</button>
+        <button value="50" id="fifty" class="tipPercent left">50%</button>
+        <input type="number" placeholder="Custom" id="custom" class="right">
+      </div>
+      <div id="labelDiv">
+        <label for="people" id="people">Number of People</label>
+        <label for="people" id="error">can't be zero</label>
+        <input value="0" type="number" class="" id="peopleAmount" name="people">
+      </div>
+    </div>
+
+    <div id="grid-right">
+      <div id="tipDiv">
+        <p>Tip Amount</p>
+        <span>/ person</span>
+        <div id="tipAmount">$0.00</div>
+      </div>
+
+      <div id="totalDiv">
+        <p>Total</p>
+        <span>/ person</span>
+        <div id="total">$0.00</div>
+      </div>
+      <button id="reset">Reset</button>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
