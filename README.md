@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [[Add solution URL here](https://www.frontendmentor.io/solutions/httpsgithubcomonemanbannedtipcalculatorappsolutiongit-ndE4aZ7rb-)]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/httpsgithubcomonemanbannedtipcalculatorappsolutiongit-ndE4aZ7rb-))
+- Live Site URL: [[Add live site URL here](https://onemanbanned.github.io/Tip-calculator-app-solution/)]([https://your-live-site-url.com](https://onemanbanned.github.io/Tip-calculator-app-solution/))
 
 ### Built with
 
@@ -33,6 +33,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [[@yourusername](https://www.frontendmentor.io/profile/OneManBanned)]([https://www.frontendmentor.io/profile/yourusername](https://www.frontendmentor.io/profile/OneManBanned))
 
 
