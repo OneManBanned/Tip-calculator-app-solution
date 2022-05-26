@@ -16,7 +16,7 @@
   <main>
 
     <div id="grid-left">
-      <label for="bill" id="billLabel">Bill</label>
+      <label for="billAmount" id="billLabel">Bill</label>
       <input value="0" type="number" id="billAmount" name="bill" step="0.01">
 
       <p class="p">Select Tip %</p>
@@ -27,11 +27,12 @@
         <button value="15" id="fiveTen" class="tipPercent active left">15%</button>
         <button value="25" id="twoFive" class="tipPercent right">25%</button>
         <button value="50" id="fifty" class="tipPercent left">50%</button>
+        <label class="customLabel" for="custom"></label>
         <input type="number" placeholder="Custom" id="custom" class="right">
       </div>
       <div id="labelDiv">
-        <label for="people" id="people">Number of People</label>
-        <label for="people" id="error">can't be zero</label>
+        <label for="peopleAmount" id="people">Number of People</label>
+        <label for="peopleAmount" id="error">can't be zero</label>
         <input value="0" type="number" class="" id="peopleAmount" name="people">
       </div>
     </div>
